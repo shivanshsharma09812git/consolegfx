@@ -1,0 +1,12 @@
+[project]
+name = "consolegfx"
+version = "0.1.0"
+description = "A console bitmap rendering engine for ASCII games and animations."
+authors = [{ name="STUpid" }]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["rich", "numpy"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
